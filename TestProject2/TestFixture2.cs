@@ -14,7 +14,7 @@ namespace TestProject2
 	    [Test]
 	    public void VerifyExecutingAssemblyDirectory2()
 	    {
-		    StringAssert.Contains(@"TestProject1\TestProject2\bin\Debug", DirectoryHelper.ExecutingAssemblyDirectory);
+		    StringAssert.Contains(@"\TestProject2\bin\Debug", DirectoryHelper.ExecutingAssemblyDirectory);
 	    }
 	}
 }
